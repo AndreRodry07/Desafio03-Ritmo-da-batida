@@ -1,0 +1,224 @@
+/* Importando a fonte Roboto do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* Resetando estilos padrão e definindo o tamanho base da fonte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 62.5%; /* Configurando 1rem = 10px para facilitar o dimensionamento baseado em rem */
+}
+
+/* Configurando estilos globais para o corpo */
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+}
+
+/* CABEÇALHO */
+
+/* Estilizando o contêiner do cabeçalho */
+.custom-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 70vh;
+    background-color: #129799;
+}
+
+/* Estilizando a barra de navegação */
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    position: relative;
+    height: 7vh;
+}
+
+/* Estilizando os links de navegação */
+.navigation ul {
+    width: 39vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Estilizando o ícone de cursor (mãozinha) no cabeçalho de navegação */
+.navigation img {
+    position: absolute;
+    right: 59.8%;
+    top: 47.2%;
+    width: 2.4%;
+    cursor: pointer;
+}
+
+.nav-link {
+    font-size: 3rem;
+    color: #f7f7f7;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    text-decoration: underline #ffa185;
+}
+
+/* Estilizando a seção do cabeçalho */
+.header-section {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Estilizando os elementos da seção do cabeçalho */
+.header-section img {
+    width: 53%;
+    cursor: pointer;
+}
+
+.header-section h1 {
+    margin-left: 5rem;
+    font-size: 5.8rem;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+/* Estilizando a barra de subnavegação */
+.sub-navigation {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 8vh;
+}
+
+/* Estilizando os links de subnavegação */
+.sub-nav-link {
+    font-size: 3rem;
+    color: #f7f7f7;
+    font-weight: 500;
+}
+
+.sub-nav-link:hover {
+    text-decoration: underline #ffa185;
+}
+
+.sub-navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+/* PRINCIPAL */
+
+/* Estilizando o contêiner de conteúdo principal */
+.aquarela-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffa185;
+}
+
+/* Estilizando títulos e parágrafos no conteúdo principal */
+.aquarela-container h2 {
+    width: 95vw;
+    font-size: 3.5rem;
+    padding: 6rem 0 2.4rem 0;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.aquarela-container p {
+    width: 89vw;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 3.5rem;
+    margin-bottom: 9rem;
+    margin-right: 8rem;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* Estilizando a seção de conteúdo principal */
+.aquarela-content {
+    width: 95vw;
+    height: 76vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilizando os contêineres de imagem no conteúdo principal */
+.aquarela-images1,
+.aquarela-images2 {
+    width: 95vw;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aquarela-images1 img,
+.aquarela-images2 img {
+    width: 49%;
+}
+
+/* Estilizando o link "Veja mais" */
+.see-more-link {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+    padding: 3.4rem;
+}
+
+.see-more-link:hover {
+    text-decoration: underline #129799;
+}
+
+/* RODAPÉ */
+
+/* Estilizando o rodapé */
+footer {
+    width: 100vw;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #129799;
+}
+
+/* Estilizando a primeira seção de navegação no rodapé */
+.footer-navigation1 img {
+    width: 75%;
+}
+
+.footer-navigation1 ul {
+    width: 25vw;
+    display: flex;
+    padding-left: 7rem;
+    justify-content: space-evenly;
+}
+
+/* Estilizando a segunda seção de navegação no rodapé */
+.footer-navigation2 ul {
+    width: 45vw;
+    display: flex;
+    padding-right: 4rem;
+    justify-content: space-around;
+}
+
+/* Estilizando os links no rodapé */
+.footer-link {
+    font-size: 2.7rem;
+    color: #f7f7f7;
+    font-weight: 400;
+}
+
+.footer-link:hover {
+    text-decoration: underline #ffa185;
+}
